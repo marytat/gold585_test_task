@@ -16,10 +16,7 @@ $(document).ready(function(){
 		$filters_check = $('.filter-hidden__check'),
 		$filters_check_active = $('.filter-hidden__check_active');
 
-	console.log($filters_check.length, $filters_check_active.length);
-
 	$filters.hide();
-	//$('.filters-clear').hide();
 
 	$filter_title.click(function(){
 		$(this).next($filters).toggle();
