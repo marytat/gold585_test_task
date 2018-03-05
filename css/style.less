@@ -1,0 +1,30 @@
+.transition{
+	-webkit-transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+	-moz-transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+	-o-transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+	transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+a{
+	color: #000;
+}
+
+.path{
+	margin: 30px 15px;
+	color: #000;
+}
+
+.path__link{
+	color: #000;
+}
+.path__link::before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 6px;
+	left: -16px;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	background: #111;
+}
